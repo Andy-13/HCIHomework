@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="#55000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:background="#88D4F6">
+            <com.example.yang.hcihomework.MLRoundedImageView
+                android:id="@+id/popHeads"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/heads"
+                />
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_below="@+id/popHeads"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="宝宝_boy"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_below="@+id/user_name"
+                android:layout_marginTop="9dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:text="上次同步 10月24日 15:00"/>
+
+            <RelativeLayout
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_below="@+id/time">
+                <ImageView
+                    android:id="@+id/coin"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/coin"/>
+                <TextView
+                    android:id="@+id/ten"
+                    android:layout_toRightOf="@+id/coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="10"
+                    android:textSize="16dp"
+                    android:textColor="#ffffff"
+                    android:layout_centerVertical="true"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/xin"
+                    android:layout_toRightOf="@+id/ten"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/star"/>
+                <TextView
+
+                    android:layout_toRightOf="@+id/xin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="9"
+                    android:textSize="16dp"
+                    android:textColor="#ffffff"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+            
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="46dp"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="114dp"
+                android:layout_marginTop="70dp"
+                />
+
+            <TextView
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="46dp"
+                android:text="7"
+                android:textColor="#ffffff"
+                android:layout_marginRight="43dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="70dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="昨日得星"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="95dp"
+                android:layout_marginTop="125dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="今日得星"
+                android:textColor="#ffffff"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="125dp"
+                />
+            
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/close"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="#4AABE1">
+            <com.example.yang.hcihomework.MLRoundedImageView
+                android:id="@+id/girl_heads"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/heads"/>
+            <TextView
+                android:layout_below="@+id/girl_heads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:text="宝宝_girl"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
