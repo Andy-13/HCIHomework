@@ -23,7 +23,7 @@ import java.util.ArrayList;
  * Created by Lee Sima on 2016/11/21.
  */
 public class DetailDialog extends DialogFragment implements  View.OnClickListener{
-
+    private static String TAG = "DETAILDIALOG";
     private ImageButton leftButton = null;
     private ImageButton rightButton = null;
     private ImageView time_iv = null;
